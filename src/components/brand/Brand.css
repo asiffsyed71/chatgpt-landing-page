@@ -1,0 +1,26 @@
+.gpt3__brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.75rem;;
+}
+
+.gpt3__brand img {
+    height: 24.15px;
+}
+
+@media screen and (max-width: 1150px) {
+    .gpt3__brand {
+        margin-inline: 3rem;
+        gap: 1.5rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .gpt3__brand {
+        justify-content: space-between;
+        gap: 0.75rem;
+    }
+    .gpt3__brand img{
+        width: 80px;
+    }
+}
